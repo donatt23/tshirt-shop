@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
 * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+}
+
+a,
+a::before,
+a::after {
+      text-decoration: none;
+      color: white;
 }
 
 html {
@@ -13,4 +20,185 @@ html {
 
 body {
       overflow-x: hidden;
+      font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+      background-color: transparent;
+      border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+      width: 10px;
+      background-color: rgb(230, 230, 230);
+}
+
+::-webkit-scrollbar-thumb {
+      border-radius: 12px;
+      background-color: rgb(230, 230, 230);
+      background-image: -webkit-gradient(linear, 40% 0%, 75% 84%, from(rgb(43, 43, 43)), to(rgb(43, 43, 43)), color-stop(0.8, rgb(68, 68, 68)));
+}
+
+header {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(230, 230, 230);
+}
+
+header .nav-menu {
+      height: 13vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      background-color: rgb(210, 210, 210);
+      position: fixed;
+      z-index: 100;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+header .nav-menu .nav-logo img {
+      width: 100px;
+      margin-left: 25px;
+}
+
+header .nav-menu .nav-links ul {
+      display: flex;
+      align-items: center;
+      font-size: 1.1em;
+}
+
+header .nav-menu .nav-links ul a {
+      color: black;
+      margin-inline: 6px;
+      padding-inline: 6px;
+      transition: background-color 0.25s, color 0.25s;
+      font-size: 1em;
+}
+
+header .nav-menu .nav-links ul .links {
+      transition: color 0.3s;
+}
+
+header .nav-menu .nav-links ul .links:hover {
+      color: #625242;
+}
+
+header .nav-menu .nav-links ul #login-btn {
+      background: #5b5248;
+      color: white;
+      margin-left: 10px;
+      transition: color 0.35s;
+}
+
+header .nav-menu .nav-links ul #login-btn:hover {
+      color: black;
+}
+
+header .nav-menu .nav-links ul #signup-btn {
+      background: #5b5248;
+      color: white;
+      transition: color 0.35s;
+      margin-right: 20px;
+      margin-left: 20px;
+}
+
+header .nav-menu .nav-links ul #signup-btn:hover {
+      color: black;
+}
+
+header .nav-menu .nav-links ul .button {
+      border-radius: 25px;
+      padding: 10px 20px;
+      font-size: 0.9em;
+      font-weight: 600;
+}
+
+header .nav-menu .nav-links ul :nth-child(2) {
+      margin-left: 20px;
+      padding-right: 15px;
+}
+
+header .header-image-container {
+      height: 100vh;
+      width: 100vw;
+}
+
+header .header-image-container .header-section {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("/images/main-image.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+
+header .header-image-container .header-section .header-description {
+      height: 50%;
+      width: 40vw;
+      z-index: 11;
+      text-align: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+header .header-image-container .header-section .header-description .custom-font {
+      position: relative;
+}
+
+header .header-image-container .header-section .header-description .custom-font h1 {
+      font-family: "Zen Dots", cursive;
+      margin-bottom: 30px;
+      padding-top: 30px;
+      font-size: 4em;
+}
+
+header .header-image-container .header-section .header-description .custom-font h1::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -50%;
+      width: 50px;
+      height: 3px;
+      z-index: 30;
+      background-color: white;
+}
+
+header .header-image-container .header-section .header-description .custom-font h1::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -50%;
+      width: 50px;
+      height: 3px;
+      z-index: 30;
+      background-color: white;
+}
+
+header .header-image-container .header-section .header-description h1 {
+      font-size: 2.6em;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+}
+
+header .header-image-container::after {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5) !important;
 }
