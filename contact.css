@@ -1,0 +1,258 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+}
+
+header .nav-links #contact {
+     font-weight: 700;
+     color: #625242;
+}
+
+header .nav-links #contact:hover {
+     color: black;
+}
+
+main {
+     margin-top: 13vh;
+     width: 100vw;
+     height: 100vh;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     background-color: rgb(205, 205, 205);
+     -webkit-animation: 0.8s ease-out 0s 1 fade-in;
+     animation: 0.8s ease-out 0s 1 fade-in;
+}
+
+main .contact-container {
+     height: 80vh;
+     width: 70vw;
+     display: flex;
+     margin-top: 25px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+main .contact-container .contact-left-section {
+     width: 35%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(57, 57, 57);
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     color: #fff;
+     padding: 30px 30px 15px 30px;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div h1 {
+     font-size: 1.2em;
+     padding-bottom: 10px;
+     font-weight: 400;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div p {
+     font-size: 0.7em;
+     letter-spacing: 1px;
+     font-weight: 200;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .left-part {
+     padding-right: 15px;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .left-part img {
+     width: 24px;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .right-part {
+     display: flex;
+     flex-direction: column;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .right-part h2 {
+     font-size: 1.1em;
+     font-weight: 400;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .right-part p {
+     font-size: 0.7em;
+     font-weight: 200;
+     padding: 5px 0 15px 0;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .right-part h3 {
+     font-size: 0.7em;
+     font-weight: 500;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .email-area {
+     padding-top: 50px;
+     display: flex;
+     align-items: flex-start;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .location-area {
+     padding-top: 50px;
+     display: flex;
+     align-items: flex-start;
+}
+
+main .contact-container .contact-left-section .get-in-touch-div .phone-area {
+     padding-top: 50px;
+     display: flex;
+     align-items: flex-start;
+}
+
+main .contact-container .socials-div {
+     width: 70%;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 50px;
+     padding-left: 30px;
+}
+
+main .contact-container .socials-div a,
+main .contact-container .socials-div img {
+     cursor: pointer;
+     width: 20px;
+     height: 20px;
+}
+
+main .contact-container .contact-right-section {
+     width: 65%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+}
+
+main .contact-container .contact-right-section #contact-form {
+     height: 100%;
+     width: 85%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper {
+     width: 70%;
+     height: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper h1 {
+     font-size: 1.7em;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper .contact-submit-success {
+     display: none;
+     font-size: 0.8em;
+     margin-bottom: 15px;
+     text-align: center;
+     background: rgb(20, 123, 20);
+     color: #fff;
+     padding: 10px 5px;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper .input-wrapper {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper .input-wrapper h6 {
+     margin-bottom: 4px;
+     color: rgba(0, 0, 0, 0.902);
+     font-size: 0.9em;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper .input-wrapper input {
+     padding: 12px 0 12px 8px;
+     outline: none;
+     border: 1px solid rgba(0, 0, 0, 0.25);
+     border-radius: 5px;
+     font-weight: 500;
+     color: rgb(0, 0, 0);
+     font-family: "Montserrat", sans-serif;
+     font-size: 0.75em;
+     letter-spacing: 1px;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper .input-wrapper .error-msg {
+     font-size: 0.7em;
+     color: red;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper .input-wrapper #contact-description {
+     resize: none;
+     border: 1px solid rgba(0, 0, 0, 0.25);
+     border-radius: 5px;
+     outline: none;
+     padding: 7px 0 0 7px;
+     font-weight: 500;
+     color: rgb(0, 0, 0);
+     font-family: "Montserrat", sans-serif;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper button {
+     border-radius: 5px;
+     padding: 15px 0;
+     outline: none;
+     background-color: rgb(10, 10, 10);
+     color: white;
+     font-size: 0.8em;
+     cursor: pointer;
+     font-weight: 500;
+     font-family: "Montserrat", sans-serif;
+     border: none;
+     transition: background-color linear 0.2s;
+}
+
+main .contact-container .contact-right-section #contact-form .contact-right-wrapper button:hover {
+     background-color: #5a554f;
+}
+
+.client-showcase-section {
+     width: 100vw;
+     padding: 130px 0;
+     background-color: rgb(205, 205, 205);
+     position: relative;
+}
+
+.client-showcase-section::after {
+     content: "";
+     position: absolute;
+     width: 3px;
+     height: 40px;
+     top: -20px;
+     left: 50%;
+     background-color: black;
+}
+
+.client-showcase-section .client-showcase-container {
+     max-width: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.client-showcase-section .client-showcase-container img {
+     width: 240px;
+     -o-object-fit: cover;
+     object-fit: cover;
+}
