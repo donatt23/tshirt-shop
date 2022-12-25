@@ -1,0 +1,213 @@
+main {
+  max-width: 100vw;
+  width: 100%;
+  margin: 20vh 0;
+}
+
+main .shop-tshirt-section {
+  max-width: 100vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .shop-tshirt-section .image-section {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+
+main .shop-tshirt-section .image-section img {
+  width: 550px;
+}
+
+main .shop-tshirt-section .customize-section {
+  max-width: 50%;
+  width: 100%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main .shop-tshirt-section .customize-section .top-customize-part h1 {
+  font-weight: 500;
+}
+
+main .shop-tshirt-section .customize-section .top-customize-part h6 {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 3px 0 10px 0;
+  color: rgb(40, 40, 40);
+}
+
+main .shop-tshirt-section .customize-section .top-customize-part h5 {
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+main .shop-tshirt-section .customize-section .middle-customize-part {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .shop-tshirt-section .customize-section .middle-customize-part h4 {
+  padding: 10px 0;
+}
+
+main .shop-tshirt-section .customize-section .middle-customize-part .left-section h4 {
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+main .shop-tshirt-section .customize-section .middle-customize-part .right-section {
+  padding-bottom: 15px;
+}
+
+main .shop-tshirt-section .customize-section .middle-customize-part .right-section h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+main .shop-tshirt-section .customize-section .middle-customize-part .right-section button {
+  padding: 9px;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid rgb(40, 40, 40);
+  cursor: pointer;
+}
+
+main .shop-tshirt-section .customize-section .bottom-customize-part {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .shop-tshirt-section .customize-section .bottom-customize-part a button {
+  padding: 20px 95px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+}
+
+main .shop-tshirt-section .customize-section .bottom-customize-part a button.add-to-cart {
+  background-color: #5b5248;
+  transition: color 0.3s, background-color 0.3s;
+  color: white;
+}
+
+main .shop-tshirt-section .customize-section .bottom-customize-part a button.add-to-cart:hover {
+  background-color: rgb(220, 220, 220);
+  color: black;
+}
+
+main .shop-tshirt-section .customize-section .bottom-customize-part a button.buy-now {
+  background-color: black;
+  color: white;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+main .shop-tshirt-section .customize-section .bottom-customize-part a button.buy-now:hover {
+  background-color: rgb(220, 220, 220);
+  color: black;
+}
+
+.recommended-section {
+  max-width: 100vw;
+  width: 100%;
+  padding: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.recommended-section::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 2px;
+  top: 0;
+  opacity: 0.3;
+}
+
+.recommended-section::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 2px;
+  bottom: 0;
+  opacity: 0.3;
+}
+
+.recommended-section h1 {
+  padding-bottom: 10vh;
+  font-size: 1.2em;
+}
+
+.recommended-section .recommended-images {
+  max-width: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended-section .recommended-images a {
+  border-radius: 50%;
+  transition: transform 0.25s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.recommended-section .recommended-images a:hover {
+  -webkit-animation: zoom-in-zoom-out 0.25s ease;
+  animation: zoom-in-zoom-out 0.25s ease;
+  transform: scale(1.05);
+}
+
+.recommended-section .recommended-images img {
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.client-showcase-section {
+  width: 100vw;
+  padding: 100px 0;
+  position: relative;
+}
+
+.client-showcase-section .client-showcase-container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.client-showcase-section .client-showcase-container img {
+  width: 240px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=tshirt.css.map */
