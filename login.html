@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="login.css" />
+      <link rel="stylesheet" href="main.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link rel="shortcut icon" href="./images/white-tss.png" type="image/x-icon" />
+      <title>T-Shirt Shop</title>
+   </head>
+   <body>
+      <header>
+         <div class="nav-menu">
+            <div class="nav-logo">
+               <a href="index.html"><img src="./images/TSSLogo.png" alt="TSSLogo" /></a>
+            </div>
+            <div class="nav-links">
+               <ul>
+                  <a href="index.html" class="links">Home</a>
+                  <a href="products.html" class="links">Products</a>
+                  <a href="contact.html" class="links">Contact</a>
+               </ul>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="login-container">
+            <form action="" method="GET" id="login-form">
+               <div class="login-wrapper">
+                  <h1 class="log-in">Log In</h1>
+                  <div class="login-submit-success"></div>
+                  <div class="input-wrapper">
+                     <input id="login-username" name="username" type="text" placeholder="Username" />
+                     <span class="username-error error-msg"></span>
+                  </div>
+                  <div class="input-wrapper">
+                     <input id="login-password" name="password" type="password" placeholder="Password" />
+                     <span class="password-error error-msg"></span>
+                  </div>
+                  <button type="submit">Log In</button>
+                  <h2>No account? Create one</h2>
+                  <h1><a href="signup.html" class="register">Register</a></h1>
+               </div>
+            </form>
+         </div>
+      </main>
+   </body>
+
+   <script src="login.js" defer></script>
+</html>
