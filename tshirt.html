@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="main.css" />
+      <link rel="stylesheet" href="tshirt.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link rel="shortcut icon" href="./images/white-tss.png" type="image/x-icon" />
+      <title>T-Shirt Shop</title>
+   </head>
+   <body>
+      <header>
+         <div class="nav-menu">
+            <div class="nav-logo">
+               <a href="index.html"><img src="./images/TSSLogo.png" alt="TSSLogo" /></a>
+            </div>
+            <div class="nav-links">
+               <ul>
+                  <a href="index.html" class="links">Home</a>
+                  <a href="products.html" class="links">Products</a>
+                  <a href="contact.html" class="links">Contact</a>
+                  <a href="login.html" id="login-btn" class="button">Log in</a>
+                  <a href="signup.html" id="signup-btn" class="button">Sign Up</a>
+               </ul>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="shop-tshirt-section">
+            <div class="image-section">
+               <img src="images/index-images/black-panther.png" alt="black-panther" />
+            </div>
+            <div class="customize-section">
+               <div class="top-customize-part">
+                  <h1>Black Panther T-Shirt</h1>
+                  <h6>by Marvel</h6>
+                  <h5>$25</h5>
+               </div>
+               <div class="middle-customize-part">
+                  <div class="left-section">
+                     <h4 class="type">TYPE</h4>
+                     <h4 class="h4-style">STYLE</h4>
+                     <h4 class="h4-size">SIZE</h4>
+                     <h4>COLOR</h4>
+                  </div>
+                  <div class="right-section">
+                     <h4>T-Shirt</h4>
+                     <h4>Men's Tee</h4>
+                     <h4>L</h4>
+                     <button></button>
+                  </div>
+               </div>
+               <div class="bottom-customize-part">
+                  <a href="#"><button class="add-to-cart">ADD TO CART</button></a>
+                  <a href="#"><button class="buy-now">BUY NOW</button></a>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <div class="recommended-section">
+         <h1>RECOMMENDED FOR YOU</h1>
+         <div class="recommended-images">
+            <a href="products.html"><img src="images/index-images/cyberpunk-santa.png" alt="cyberpunk-santa" /></a>
+            <a href="products.html"><img src="images/index-images/spotted-eagle-ray.png" alt="black-panther" /></a>
+            <a href="products.html"><img src="images/index-images/darth-wader.png" alt="darth-wader" /></a>
+            <a href="products.html"><img src="images/index-images/santa-yoda.png" alt="santa-yoda" /></a>
+         </div>
+      </div>
+
+      <div class="client-showcase-section">
+         <div class="client-showcase-container">
+            <img src="images/index-images/starwars-logo.png" alt="starwars-logo" />
+            <img src="images/index-images/marvel-logo.png" alt="marvel-logo" />
+         </div>
+      </div>
+
+      <footer>
+         <div id="footer-parts">
+            <div id="upper-parts">
+               <div class="lines"></div>
+               <img src="/images/footer-TSS.png" alt="footer-TSS" />
+               <div class="lines"></div>
+            </div>
+            <div id="middle-parts">
+               <div class="middle-left-part">
+                  <a href="#" target="_blank">
+                     <h6>Cookie Policy</h6>
+                  </a>
+                  <a href="#" target="_blank">
+                     <h6>Terms & Conditions</h6>
+                  </a>
+                  <a href="#" target="_blank">
+                     <h6>TSS Subscription</h6>
+                  </a>
+               </div>
+               <div class="middle-part">
+                  <a href="https://twitter.com" target="_blank" title="Twitter"
+                     ><img src="images/twitter.svg" alt="twitter"
+                  /></a>
+                  <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                     <img src="images/facebook-f.svg" alt="facebook" />
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                     <img src="images/instagram.svg" alt="instagram" />
+                  </a>
+                  <a href="https://www.youtube.com" target="_blank" title="Youtube">
+                     <img src="images/youtube.svg" alt="youtube" />
+                  </a>
+               </div>
+               <div class="middle-right-part">
+                  <a href="products.html">
+                     <h6>Products</h6>
+                  </a>
+                  <a href="contact.html">
+                     <h6>Contact</h6>
+                  </a>
+                  <a href="login.html">
+                     <h6>Login/Sign Up</h6>
+                  </a>
+               </div>
+            </div>
+            <div
+               class="vertical-line-part"
+               style="width: 2px; height: 8vh; background-color: black; margin: auto"
+            ></div>
+            <div id="bottom-parts">
+               <h5>Subscribe for upcoming Discounts!</h5>
+               <div class="input-newsletter alert-dismissible fade show">
+                  <form>
+                     <input type="email" name="email" placeholder="NAME@EMAIL.COM" required />
+                     <button type="submit">SUBSCRIBE</button>
+                  </form>
+               </div>
+               <p>TSS</p>
+               <h6>All Rights Reserved &copy;</h6>
+            </div>
+         </div>
+      </footer>
+
+      <button id="redirect-to-top-btn" title="Go to top">&uparrow;</button>
+
+      <script src="index.js"></script>
+   </body>
+</html>
