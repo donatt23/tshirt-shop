@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="signup.css" />
+      <link rel="stylesheet" href="main.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link rel="shortcut icon" href="./images/white-tss.png" type="image/x-icon" />
+      <title>T-Shirt Shop</title>
+   </head>
+   <body>
+      <header>
+         <div class="nav-menu">
+            <div class="nav-logo">
+               <a href="index.html"><img src="./images/TSSLogo.png" alt="TSSLogo" /></a>
+            </div>
+            <div class="nav-links">
+               <ul>
+                  <a href="index.html" class="links">Home</a>
+                  <a href="products.html" class="links">Products</a>
+                  <a href="contact.html" class="links">Contact</a>
+               </ul>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="signup-container">
+            <form action="" method="GET" id="signup-form">
+               <div class="signup-wrapper">
+                  <h1>Register</h1>
+                  <div class="signup-submit-success"></div>
+                  <div class="input-wrapper">
+                     <input id="signup-username" name="username" type="text" placeholder="Username" />
+                     <span class="username-error error-msg"></span>
+                  </div>
+                  <div class="input-wrapper">
+                     <input id="signup-email" name="email" type="email" placeholder="Email" />
+                     <span class="email-error error-msg"></span>
+                  </div>
+                  <div class="input-wrapper">
+                     <input id="signup-password" name="password" type="password" placeholder="Password" />
+                     <span class="password-error error-msg"></span>
+                  </div>
+                  <button type="submit">Register</button>
+                  <h2>Already have an account? <a href="login.html">Sign in</a></h2>
+               </div>
+            </form>
+         </div>
+      </main>
+
+      <script src="signup.js" defer></script>
+   </body>
+</html>
