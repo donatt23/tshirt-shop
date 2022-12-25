@@ -45,6 +45,15 @@ header {
   background-color: rgb(230, 230, 230);
 }
 
+header .nav-links #home {
+  font-weight: 700;
+  color: #625242;
+}
+
+header .nav-links #home:hover {
+  color: black;
+}
+
 header .header-image-container {
   height: 100vh;
   width: 100vw;
@@ -236,6 +245,7 @@ main .cards-container .cards-div .cards-first-row .cards img {
 
 main .cards-container .cards-div .cards-first-row .cards p {
   font-size: 1.2em;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
@@ -297,6 +307,7 @@ main .cards-container .cards-div .cards-second-row .cards img {
 
 main .cards-container .cards-div .cards-second-row .cards p {
   font-size: 1.2em;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
@@ -358,6 +369,7 @@ main .cards-container .cards-div .cards-third-row .cards img {
 
 main .cards-container .cards-div .cards-third-row .cards p {
   font-size: 1.2em;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
